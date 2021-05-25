@@ -133,7 +133,7 @@
     .form-contact {
         text-align: center;
         background-color: var(--clr-light);
-        width: 80%;
+        width: 90%;
         margin: -10% auto 0 auto;
         padding: 2rem;
         border-radius: .25em;
@@ -182,6 +182,9 @@
                     color: var(--clr-light);
                 }
             }
+        }
+        .captcha {
+            max-width: 100%;
         }
     }
 }
