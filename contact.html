@@ -65,7 +65,7 @@
                     <h1>Contact</h1>
 
                     <div class="form">
-                        <form action="#" name="contact" method="POST" data-netlify="true">
+                        <form action="#" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
                             <div class="field">
                                 <label for="name">Name:</label>
                                 <input type="text" id="name" placeholder="Name">
@@ -80,6 +80,8 @@
                                 <label for="menssage">Mensaje:</label>
                                 <textarea id="menssage" placeholder="Message"></textarea>
                             </div>
+
+                            <div data-netlify-recaptcha="true"></div>
 
                             <div class="field send">
                                 <input type="submit" value="Send" class="btn-contact">
