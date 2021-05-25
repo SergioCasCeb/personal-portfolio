@@ -951,7 +951,7 @@ img {
 .content-contact .form-contact {
   text-align: center;
   background-color: var(--clr-light);
-  width: 80%;
+  width: 90%;
   margin: -10% auto 0 auto;
   padding: 2rem;
   border-radius: .25em;
@@ -1015,6 +1015,10 @@ img {
 .content-contact .form-contact .field .btn-contact:hover, .content-contact .form-contact .field .btn-contact:focus {
   background-color: var(--clr-hvr);
   color: var(--clr-light);
+}
+
+.content-contact .form-contact .captcha {
+  max-width: 100%;
 }
 
 @media screen and (min-width: 764px) {
