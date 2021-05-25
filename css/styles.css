@@ -426,6 +426,16 @@ img {
   }
 }
 
+@media screen and (min-width: 764px) {
+  .header {
+    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(60%, black), color-stop(80%, rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.395378)));
+    background: linear-gradient(90deg, black 0%, black 60%, rgba(0, 0, 0, 0.7) 80%, rgba(0, 0, 0, 0.395378) 100%);
+  }
+  .header .header-img {
+    width: 40%;
+  }
+}
+
 /***Main ***/
 /**Section about**/
 .about {
